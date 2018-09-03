@@ -1,13 +1,27 @@
 {
-  "name": "vue-datastream-spinner",
+  "name": "@farhankaz2018/vue-datastream-spinner",
   "version": "0.1.0",
-  "private": true,
+  "main": "dist/vue-datastream-spinner.common.js",
+  "module": "dist/vue-datastream-spinner.esm.js",
+  "unpkg": "dist/vue-datastream-spinner.min.js",
+  "browser": {
+    "./sfc": "src/Spinner.vue"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "*.json",
+    "*.js"
+  ],
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name vue-datastream-spinner src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "gsap": "^2.0.2",
     "vue": "^2.5.17"
   },
   "devDependencies": {
