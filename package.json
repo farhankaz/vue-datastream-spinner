@@ -1,6 +1,6 @@
 {
   "name": "@farhankaz2018/vue-datastream-spinner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/vue-datastream-spinner.common.js",
   "module": "dist/vue-datastream-spinner.esm.js",
   "unpkg": "dist/vue-datastream-spinner.min.js",

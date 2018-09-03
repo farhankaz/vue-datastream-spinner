@@ -5,6 +5,7 @@
 import {Linear} from 'gsap'
 import {TweenMax} from "gsap/TweenMax";
 export default {
+  name: 'datastream-spinner',
   props: {
     spinsPerSecond: { type: Number, default: 1 },
     type: { type: String, default: 'blue' }
