@@ -12,7 +12,6 @@ npm install @farhankaz2018/vue-datastream-spinner --save
 ```
 
 ## Usage
-```
 * Use in your component's template
 ```html
 <datastream-spinner></datastream-spinner>
