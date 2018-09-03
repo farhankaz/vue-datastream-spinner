@@ -1,15 +1,17 @@
 {
-  "name": "@farhankaz2018/vue-datastream-spinner",
-  "version": "0.1.2",
-  "main": "dist/vue-datastream-spinner.common.js",
-  "module": "dist/vue-datastream-spinner.esm.js",
-  "unpkg": "dist/vue-datastream-spinner.min.js",
-  "browser": {
-    "./sfc": "src/Spinner.vue"
-  },
+  "name": "vue-datastream-spinner",
+  "version": "0.1.0",
+  "main": "./dist/vue-datastream-spinner.common.js",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "progress",
+    "indicator",
+    "stream"
+  ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/farhankaz/vue-datastream-spinner"
+    "type": "git",
+    "url": "https://github.com/farhankaz/vue-datastream-spinner"
   },
   "license": "MIT",
   "author": "farhankaz2018",
@@ -33,36 +35,12 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
-    "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "vue-template-compiler": "^2.5.17"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ],
-  "engines": {
-    "node": ">=6.9.0",
-    "npm": ">=3.10.8"
-  }  
+  ]
 }

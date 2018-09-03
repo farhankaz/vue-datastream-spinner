@@ -7,7 +7,7 @@ An indeterminate progress indicator with variable/configurable spin speed to ind
 ## Installation
 ```bash
 # npm
-npm install @farhankaz2018/vue-datastream-spinner --save
+npm install vue-datastream-spinner --save
 
 ```
 
@@ -17,15 +17,15 @@ npm install @farhankaz2018/vue-datastream-spinner --save
 <datastream-spinner></datastream-spinner>
 <datastream-spinner :spinsPerSecond="0.5" type="black"></datastream-spinner>
 <datastream-spinner :spinsPerSecond="1.5" type="blue"></datastream-spinner>
-<datastream-spinner :spinsPerSecond="1" type="custom"></datastream-spinner>
+<datastream-spinner :spinsPerSecond="1"></datastream-spinner>
 ```
 
 * Register within your component
 ```js
-import Spinner from '@farhankaz2018/vue-datastream-spinner';
+import Spinner from 'vue-datastream-spinner';
 export default {
   data: {...}
-  components: { Spinner }
+  components: { 'datastream-spinner': Spinner }
 }
 
 ```
