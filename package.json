@@ -7,6 +7,13 @@
   "browser": {
     "./sfc": "src/Spinner.vue"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/farhankaz/vue-datastream-spinner"
+  },
+  "license": "MIT",
+  "author": "farhankaz2018",
+  "homepage": "https://github.com/farhankaz/vue-datastream-spinner",
   "files": [
     "dist/*",
     "src/*",
@@ -53,5 +60,9 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "engines": {
+    "node": ">=6.9.0",
+    "npm": ">=3.10.8"
+  }  
 }
